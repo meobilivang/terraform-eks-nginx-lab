@@ -11,11 +11,9 @@
 
 ## :page_with_curl: Project Requirements
 
-> Here is a summarized list of requirements for this take-home project grouped by the context
-
 ### 1. `AWS`
 
-We are using `EKS`, the managed `Kubernetes` service from `Amazon`, in this assignment. In terms of deployment model, it would be [**Running Amazon EKS in the cloud**](https://aws.amazon.com/eks/) (`AWS` offers other models, e.g: Hybrid, on-premise, etc)
+We are using `EKS`, the managed `Kubernetes` service from `Amazon`. In terms of deployment model, it would be [**Running Amazon EKS in the cloud**](https://aws.amazon.com/eks/) (`AWS` offers other models, e.g: Hybrid, on-premise, etc)
 
 #### Region
 
@@ -790,7 +788,7 @@ TODO
 
 TODO
 
-## Takeaways
+## :notebook: Takeaways
 
 - Diving into `Terraform`:
   - Syntaxes
@@ -806,14 +804,14 @@ TODO
   - `nvim`
   - `VSCode`
 
-## Above-and-beyond
+## :star: Above-and-beyond
 
 - [ ] Adding `AWS` Architecture Diagrams
 - [ ] Configure [IAM roles for `ServiceAccount`](https://docs.aws.amazon.com/eks/latest/userguide/iam-roles-for-service-accounts.html) to deploy more complex workloads
 - [ ] "Ricing" my `nvim` for better coding experience with `Terraform` :musical_keyboard: (I got the LSP server but might want to play around with some other packages)
 - ...
 
-## Resources
+## :books: Resources
 
 - My notes on `AWS` when I took the [AWS Solutions Architect - Associate](https://www.credly.com/badges/8c8b3960-79d6-44dc-bfcd-47fa6091e73e/public_url) cert
 
@@ -839,7 +837,7 @@ TODO
 - [Hashicorp - Provisioning EKS](https://developer.hashicorp.com/terraform/tutorials/kubernetes/eks)
 - [Creating EKS Cluster Using Terraform](https://antonputra.com/terraform/how-to-create-eks-cluster-using-terraform/)
 
-I highly recommend looking into some standard modules available to learn the best practices / their approaches in setting up the resources:
+Moreover, I highly recommend looking into some standard modules available to learn the best practices / their approaches in setting up the resources:
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
